@@ -42,3 +42,15 @@ Crypto-Coder/
    ```bash
    git clone https://github.com/IlyaAkbari/Crypto-Coder.git
    cd Crypto-Coder
+2. **Set Up Virtual Environment (Recommended)**:
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Unix/Mac
+   venv\Scripts\activate     # On Windows
+3. **Install Dependencies**:
+   ```bash
+   pip install -r requirements.txt
+   
+Note: Some advanced features in crypto_utils.py and page5_smart_decrypt.py require additional libraries like cryptography, pycryptodome (for Whirlpool), numpy, scikit-learn, numba, etc. Ensure CUDA is installed for GPU acceleration if available.
+
+4. **Run the application**:python main.py
