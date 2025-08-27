@@ -1,0 +1,7 @@
+PyQt6
+cryptography
+pycryptodome  # For Whirlpool hash
+numpy
+scikit-learn
+numba
+blowfish
